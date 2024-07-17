@@ -40,12 +40,10 @@ public class Main {
 
 
             // TODO correction
-//            addPlayer(connection, "KrutoyBobik");
-//
-//            deletePlayer(connection, "KrutoyBobik");
-//
-//            addSword(connection, "Slasher", "mythic", 25000, 0, 1000);
-//            correctAura(connection, "spirit", 1000);
+            addPlayer(connection, "KrutoyBobik");
+            deletePlayer(connection, "KrutoyBobik");
+            addSword(connection, "Slasher", "mythic", 25000, 0, 1000);
+            correctAura(connection, "spirit", 1000);
 
 
         } catch (SQLException e) {
